@@ -1,0 +1,622 @@
+html {
+  font-family: Georgia, Helvetica, Verdana, sans-serif;
+  font-size: 16px;
+  min-width: 1620px;
+}
+
+#wordone {
+  /*color: #4d4d4d;*/
+  color: #76323F;
+  font-weight: bolder;
+  padding-right: 0.5rem;
+}
+
+#wordtwo {
+  /*color: LightGrey;*/
+  color: #C09F80;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  height: 4rem;
+}
+
+nav img {
+  margin-left: 1.5rem;
+  height: 2.5rem;
+}
+
+nav span {
+  font-size: 2rem;
+}
+
+.truncated-menu {
+  display:none;
+}
+
+ul {
+    margin-right: 1.5rem;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.menuone {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menutwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #76323F;
+}
+
+.default-menu img {
+  height: 50px;
+  width: auto;
+}
+
+@media only screen and (max-width: 480px) {
+
+  html {
+    min-width: 480px;
+  }
+
+  nav img {
+    margin-left: 0rem;
+  }
+
+  .default-menu {
+    display:none;
+  }
+
+  .truncated-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+}
+
+.Learn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /*background-color: LightGrey;*/
+  background-color: #D7CEC7;
+}
+
+.LearnLeft {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.LearnLeft img {
+  width: 100%;
+  height: auto;
+}
+
+.LearnRight {
+  width: 40%;
+  height: auto;
+  margin-right: 1.5rem;
+}
+
+#LearnTitle {
+  margin: 2.5rem 1.5rem;
+}
+
+#LearnSub {
+  margin: 2.5rem 1.5rem;
+}
+
+.LearnRight h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.3;
+  /*color: #4d4d4d;*/
+  color: #565656;
+}
+
+.LearnRight h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.3;
+  /*color: #4d4d4d;*/
+  color: #565656;
+}
+
+.button {
+  /*background-color: #4d4d4d;*/
+  background-color: #76323F;
+  color: white;
+  font-size: 2rem;
+  margin: 2.5rem 1.5rem;
+  padding: 2rem 0rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+      min-width: 480px;
+  }
+
+  .Learn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #D7CEC7;
+  }
+
+  #LearnTitle {
+    margin: 2rem 1rem;
+  }
+
+  #LearnSub {
+    margin: 0rem 1rem;
+  }
+
+  .LearnLeft {
+    width: 100%;
+    margin: 0rem 0rem;
+  }
+
+  .LearnRight {
+    width: 100%;
+    margin-right: 0rem;
+  }
+
+  .LearnRight h1 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+
+  .LearnRight h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .button {
+      background-color: #76323F;
+  }
+
+}
+
+.Practice {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: white;
+  padding-bottom: 2rem;
+}
+
+.sec2-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
+}
+
+.sec2-col img {
+  padding: 2rem 1.5rem
+}
+
+.sec2-col h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #565656;
+  padding-left: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.sec2-col p {
+  font-size: 1.5rem;
+  color: #4d4d4d;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.sec2-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+}
+
+.sec2-rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: centre;
+  padding: 1rem 1rem;
+}
+
+.sec2-rows img {
+  width: 35%;
+  height: auto;
+  padding-right: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 65%;
+  height: auto;
+}
+
+.info h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-bottom: 8px;
+  color: #565656;
+}
+
+.info p {
+  font-size: 1.5rem;
+  color: #4d4d4d;
+  line-height: 1.5;
+  padding-bottom: 8px;
+}
+
+.swapto {
+  display: none;
+}
+
+.info a:link {
+    color: #76323F;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.info a:visited {
+    color: #76323F;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+      min-width: 480px;
+  }
+
+  .Practice {
+    padding: 0rem 0rem;
+  }
+
+  .sec2-col {
+    display: none;
+  }
+
+  .Practice .sec2-right {
+    width: 100%;
+  }
+
+  .sec2-rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0rem 0rem;
+  }
+
+  .sec2-rows img {
+    width: 100%;
+    height: 18rem;
+    margin: 1rem 1rem;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .default {
+    display: none;
+  }
+
+  .swapto {
+    display: block;
+  }
+}
+
+.Start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #D7CEC7;
+}
+
+.Start h1 {
+  font-size: 4rem;
+  color: #565656;
+  font-weight: bolder;
+  padding: 2rem 4rem;
+}
+
+.LearnRows {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 4.5rem;
+  align-items: stretch;
+}
+
+.LearnBox {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1rem;
+  background-color: white;
+  width: 30%;
+}
+
+.LearnBox h2 {
+  font-size: 2rem;
+  /*color: #4d4d4d;*/
+  color: #76323F;
+  font-weight: bolder;
+  padding: 1rem 1rem;
+}
+
+.LearnBox p {
+    color: #4d4d4d;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.LearnBox img {
+  padding-bottom: 1rem;
+  height: auto;
+}
+
+.StartMob {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+  html {
+      min-width: 480px;
+  }
+
+  .Start {
+    display: none;
+  }
+
+  .StartMob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .MobBox {
+    background-color: LightGrey;
+    color: #4d4d4d;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.25rem 1rem;
+  }
+
+  .MobBox h2 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  }
+
+  .HeadingBox {
+    background-color: white;
+    color: #4d4d4d;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+}
+
+.Thesis {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+}
+
+.Thesis h1 {
+  font-size: 4rem;
+  color: #4d4d4d;
+  font-weight: bolder;
+  padding: 2rem 4rem;
+}
+
+.ThesisRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.ThesisCol {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.VidBox {
+  width: 60%;
+  height: auto;
+}
+
+.VidBox video {
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 95%;
+  height: auto;
+}
+
+.DescBoxTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: LightGrey;
+}
+
+.DescBoxBot {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: White;
+}
+
+.DescBoxTop img {
+  margin: 1rem 1rem;
+  width: 35%;
+  height: auto;
+}
+
+.DescBoxBot img {
+  margin: 1rem 1rem;
+  width: 35%;
+  height: auto;
+}
+
+.thesisinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 65%;
+}
+
+.thesisinfo h1 {
+  font-size: 2.5rem;
+  color: #4d4d4d;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 0rem 0rem;
+}
+
+.thesisinfo p {
+  color: #4d4d4d;
+  padding-right: 2rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.ThesisMob {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+  html {
+      min-width: 480px;
+  }
+
+  .Thesis {
+    display: none;
+  }
+
+  .imagine {
+    display: none;
+  }
+
+  .ThesisMob {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2rem;
+  }
+
+  .VidMob video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+}
+
+.imagine {
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+  width: 60%;
+}
+
+.imagine h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.imagine p {
+  color: #4d4d4d;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  line-height: 1.5;
+  border-top: 0.5rem solid #76323F;
+}
+
+.copyright {
+  color: #4d4d4d;
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 480px) {
+
+  html {
+      min-width: 480px;
+  }
+
+  footer {
+    min-width: 480px;
+  }
+
+  footer .menu {
+    display: none;
+  }
+
+  footer .copyright {
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+}
